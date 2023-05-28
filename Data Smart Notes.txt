@@ -1,0 +1,32 @@
+=SQRT(SUM((OFFSET(Standardized!$B$2:$K$2,Distances!$A3,0)-OFFSET(Standardized!$B$2:$K$2,Distances!C$1,0))^2))
+
+=SQRT(SUM((OFFSET(Standardized!$B$2:$C$2,Distances!$A3,0)-OFFSET(Standardized!$B$2:$C$2,Distances!C$1,0))^2))
+
+=RANK(Distances!C3,Distances!$C3:$OL3,1)-1
+
+=RANK(Distances!C3,Distances!$C3:$AG30,1)-1
+
+=SUM(IF(Rank!B296:OK296=$B$1,1,0)*Distances!C297:OL297)
+
+=SUM(IF(Rank!B2:AF2=$B$1,1,0)*Distances!C3:AG3)
+
+=IFERROR(MID(A2,B2+1,B152-B2-1),".")
+
+=IFERROR(MID(A2,B2+1,B152-B2-1),".")
+
+IF(ISNA(VLOOKUP(D2,AppTokensProbability!$A$5:$E$827,5,FALSE)), LN(1/AppTokensProbability!$C$828),VLOOKUP(D2,AppTokensProbability!
+$A$5:$E$827,5,FALSE))
+
+Data Smart concepts to study
+Chapter 01
+Chapter 02
+Chapter 03
+additive smoothing
+Chapter 04
+Chapter 05
+Chapter 06
+Chapter 07
+Chapter 08
+exponential smoothing
+Chapter 09
+Chapter 10
